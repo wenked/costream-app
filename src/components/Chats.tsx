@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/main.css';
-import Button from '@material-ui/core/button';
+import { Button } from '@material-ui/core';
 
 const Chats: React.FC = () => {
 	const [showChatStreamer, setShowChatStreamer] = React.useState(true);

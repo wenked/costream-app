@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import Button from '@material-ui/core/button';
+import { Button } from '@material-ui/core';
 
 const Players: React.FC = () => {
 	const [youtubeWidth, setYoutubeWidth] = React.useState('900px');
