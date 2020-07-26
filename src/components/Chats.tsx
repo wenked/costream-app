@@ -31,20 +31,20 @@ const Chats: React.FC = () => {
 						<iframe
 							title='chat-baiano'
 							scrolling='yes'
-							id='pijack11'
-							src='https://www.twitch.tv/embed/riotgamesbrazil/chat?parent=localhost'
+							id='riotgamesbrazil'
+							src='https://www.twitch.tv/embed/riotgamesbrazil/chat?parent=costream.netlify.app'
 							height='700'
 							width='300'></iframe>
 					</div>
 				)}
 				{showChatStreamer && (
 					<div>
-						<h5 className='text-gray-100'>Chat Baiano</h5>
+						<h5 className='text-gray-100'>Chat Streamer</h5>
 						<iframe
 							title='chat-baiano'
 							scrolling='yes'
-							id='pijack11'
-							src='https://www.twitch.tv/embed/pijack11/chat?parent=localhost'
+							id='baiano'
+							src='https://www.twitch.tv/embed/baiano/chat?parent=costream.netlify.app'
 							height='700'
 							width='300'></iframe>
 					</div>

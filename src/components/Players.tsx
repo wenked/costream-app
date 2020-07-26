@@ -35,7 +35,8 @@ const Players: React.FC = () => {
 			</div>
 			<div className='px-2'>
 				<ReactPlayer
-					url='https://www.youtube.com/watch?v=OOgnvCpSGg4'
+					playing
+					url='https://www.youtube.com/watch?v=qbMTpwgpZ0E'
 					width={youtubeWidth}
 					height='600px'
 					config={{
@@ -50,7 +51,7 @@ const Players: React.FC = () => {
 					height='250px'
 					pip
 					playing
-					url='https://www.twitch.tv/lck'
+					url='https://www.twitch.tv/baiano'
 				/>
 			</div>
 		</div>
