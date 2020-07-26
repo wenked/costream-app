@@ -5,8 +5,8 @@ import Chats from './components/Chats';
 
 const App: React.FC = () => {
 	return (
-		<div className='flex m-4 p-4'>
-			<div className='grid gap-2 grid-cols-2 p-2 '>
+		<div className='container mx-2 px-2'>
+			<div className='flex justify-start content-start items-start flex-row'>
 				<Chats />
 				<Players />
 			</div>
