@@ -17,6 +17,7 @@
 		"react-dom": "^16.13.1",
 		"react-player": "^2.6.0",
 		"react-scripts": "3.4.1",
+		"react-switch": "^5.0.1",
 		"tailwindcss": "^1.5.2",
 		"typescript": "~3.7.2"
 	},

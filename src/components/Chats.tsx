@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/main.css';
-import { Button } from '@material-ui/core';
+import Switch from 'react-switch';
 
 const Chats: React.FC = () => {
 	const [showChatStreamer, setShowChatStreamer] = React.useState(true);
@@ -10,18 +10,30 @@ const Chats: React.FC = () => {
 		<div>
 			<div className='inline-flex'>
 				<div className='p-2 m-2'>
-					<Button
-						variant='contained'
-						onClick={() => setShowChatStreamer(!showChatStreamer)}>
-						{showChatStreamer ? 'Hide chat Streamer' : 'Show chat Streamer'}
-					</Button>
+					{showChatStreamer ? (
+						<h5 className='text-gray-100'>Hide chat Streamer</h5>
+					) : (
+						<h5 className='text-gray-100'>Show chat Streamer</h5>
+					)}
+					<Switch
+						onChange={() => setShowChatStreamer(!showChatStreamer)}
+						checked={showChatStreamer}
+						onColor='#B1E5F2'
+						offColor='#A6A6A8'
+					/>
 				</div>
 				<div className='p-2 m-2'>
-					<Button
-						variant='contained'
-						onClick={() => setShowChatRiot(!showChatRiot)}>
-						{showChatRiot ? 'Hide chat Riot' : 'Show chat Riot'}
-					</Button>
+					{showChatRiot ? (
+						<h5 className='text-gray-100'>Hide chat Riot</h5>
+					) : (
+						<h5 className='text-gray-100'>Show chat Riot</h5>
+					)}
+					<Switch
+						onChange={() => setShowChatRiot(!showChatRiot)}
+						checked={showChatRiot}
+						onColor='#B1E5F2'
+						offColor='#A6A6A8'
+					/>
 				</div>
 			</div>
 			<div className='inline-flex'>
