@@ -47,10 +47,9 @@ const Players: React.FC = () => {
 					</div>
 				</div>
 			</div>
-			<div className=' px-2'>
+			<div className='px-2'>
 				<ReactPlayer
-					playing
-					url='https://www.youtube.com/watch?v=qbMTpwgpZ0E'
+					url='https://www.youtube.com/watch?v=DcxpvJb6wZo'
 					width={youtubeWidth}
 					height={youtubeHeight}
 					config={{
@@ -59,7 +58,8 @@ const Players: React.FC = () => {
 						},
 					}}
 				/>
-				<div className='absolute bottom-0 right-0 '>
+
+				<div className='absolute bottom-0 right-0'>
 					<ReactPlayer
 						style={{ position: 'relative' }}
 						width='300px'
